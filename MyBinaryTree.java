@@ -1,11 +1,11 @@
 package com.bridgelabz.binary;
 
-/**
+/*****************************************
  * Purpose : Implement Binary Search Tree
  * @author Ganesh Gavhad
  *@version 1.0
  * @param <K>
- */
+ *****************************************/
 public class MyBinaryTree<K extends Comparable<K>>{
 	
 	private MyBinaryNode<K> root;
