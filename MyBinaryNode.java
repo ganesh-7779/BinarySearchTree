@@ -19,4 +19,8 @@ public 	MyBinaryNode(K key) {
 	this.right=null;
 }
 
+public K getKey() {
+	return key;
+}
+
 }
