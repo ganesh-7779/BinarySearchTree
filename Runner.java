@@ -21,8 +21,15 @@ public class Runner {
 		element.add(16);
 		element.add(63);
 		element.add(67);
+		element.printNodes();
+		
+		MyBinaryNode<Integer> searchResult = element.search(60);
+		if(searchResult == null) {
+			System.out.println("its not Node Of Tree");
+		}else {
+			System.out.println("its Node of tree: "+searchResult.getKey());
+		}
 		int size = element.getSize();
-		System.out.println(size);
-
+		System.out.println("Size of tree "+" " +size);
 	}
 }
